@@ -8,7 +8,7 @@
 where a.ApplicationName like '%dichaba%'
 2. Write an SQL Script to Select Plans Name, name and ID number after data is imported
 3. Write an SQL Script to Select Plan, Count of members group by PlanName which is found under [DataImport_Plans]
-4. Update PolicyStaus to ‘Done’
+4. Update PolicyStaus to â€˜Doneâ€™
 
 
 
@@ -17,3 +17,7 @@ where a.ApplicationName like '%dichaba%'
 -->Insert data into                [dbo].[DataImport_Members]
 -->we get the data from            [DataImports].[dbo].[DataImport_juiortest]
 -->Filter to where the name is     [Name of Parlour]='Dichaba Kopano' 
+
+
+
+we have Commited!!!!
