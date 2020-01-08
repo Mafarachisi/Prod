@@ -1,0 +1,19 @@
+1. Write an SQL Script to insert data into the following table [dbo].[DataImport_Members] from data contained in the [DataImports].[dbo].[DataImport_juiortest] table
+ When inserting to the data into members you will need to use the following tables 
+[DataImports].[dbo].[DataImport_juiortest] filter where the  [Name of Parlour]='Dichaba Kopano '
+	Use [dbo].[DataImport_Plans] for the fkiPlanID
+	use ApplicationData.[dbo].ApplicationSettings for the Parlourid
+	Select *
+	from ApplicationData..ApplicationSettings a
+where a.ApplicationName like '%dichaba%'
+2. Write an SQL Script to Select Plans Name, name and ID number after data is imported
+3. Write an SQL Script to Select Plan, Count of members group by PlanName which is found under [DataImport_Plans]
+4. Update PolicyStaus to ‘Done’
+
+
+
+
+
+-->Insert data into                [dbo].[DataImport_Members]
+-->we get the data from            [DataImports].[dbo].[DataImport_juiortest]
+-->Filter to where the name is     [Name of Parlour]='Dichaba Kopano' 
